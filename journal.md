@@ -77,3 +77,102 @@ This is some tiresome work, but here is the PCB after I added half of the keycap
 
 And the last keycap 
 [To insert- space]
+
+This is how the PCB looks 
+[To insert- final pcb]
+
+#### Time taken - 50 minutes to manually add and align all switches and keycap models.
+
+## Journal 4
+
+I started CAD today. I have decided for a sandwich mount case. I also will leave out the space for the devboard.
+
+I imported the the .step of the PCB from KiCad to Fusion.
+
+[To insert- imported PCB]
+
+Then, I made a sketch to make the base.
+The base was made to have 8mm thick walls on each side.
+
+[To insert- sketch]
+
+I then extruded only the base under the pcb. 
+
+[To insert- Bottom base]
+
+Then I made the walls and aligned it to the Top edges of the PCB
+
+[To insert-base]
+[To insert- base2]
+
+I then imported the plate.dxf from ai03's plate generator 
+[To insert - plate]
+
+I then aligned the plate to the keycaps, extruded the sides to match the entire base length.
+
+[To insert- Plate aligned]
+[To insert - Plate extruded]
+
+This was the case halfway done.
+[To insert- Halway assembly]
+
+I then made the top part of the sandwich from the same sketch I used for the walls.
+
+[To insert-Top]
+
+Finally, I ended up with this
+
+[To insert-Final]
+
+I made the holes for countersunk hex screws.
+[To insert -Screw]
+[To insert- Full holes]
+
+I added the screws in Fusion.
+[To insert- Scrwes]
+
+#### Time taken- around 2 hours for entire case design.
+
+## Journal 5
+While the earlier case will work, hobbyist 3d printing cannot accomodate such large sizes. So, to counter this, I designed another case of the same layout, split in 3 pieces in the base and a top with 2 pieces, making an integrated plate case.
+
+I started with a new sketch with same measurements.
+[To insert- New sketch]
+
+I extruded all the base parts one by one
+[To insert- Extrusion]
+
+Next, the walls 
+[To insert- Walls]
+
+Aligned everything.
+[To insert- Alignment]
+
+I imported the plate and then extruded it and aligned it with the switches.
+[To insert- Plate dxf]
+
+Then extruded the sides to complete the plate.
+[To insert-Completed plate]
+
+After fixing the walls, this is how the case looked.
+[To insert- Full plate]
+
+I then added the extruded the top part
+[To insert- Top added]
+
+I cleaned up everything, made the cutout for the nice!nano.
+I added colors to the keyboard and the color scheme I am going for.
+[To insert- coloring]
+
+Then I added holes for the screws
+[To insert-Complete]
+
+Inserted screws
+[To insert- Screws]
+
+For the split case, I also added small tab like structures to help for structural integrity
+[To insert tab]
+
+And done!
+
+#### Time taken - around 1.5 hours for split case design.
