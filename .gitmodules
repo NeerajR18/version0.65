@@ -1,0 +1,3 @@
+[submodule "zmk-config-version0.65"]
+	path = zmk-config-version0.65
+	url = https://github.com/NeerajR18/zmk-config-version0.65.git
