@@ -146,4 +146,4 @@ Firmware repository- https://github.com/NeerajR18/zmk-config-version0.65
 | Cherry Stabilizer Set (GEON AND C3) | 1 | 7.36 | 7.36 | https://neomacro.in/products/cherry-stabilizer-set-geon-and-c3?_pos=3&_sid=9a6134911&_ss=r |
 | M3 Heatset Insert | 20 | 0.025 | 0.50 | https://onlyscrews.in/products/m3-x-3mm-brass-threaded-inserts |
 | M3 × 16mm Screws | 20 | 0.023 | 0.46 | https://onlyscrews.in/products/hex-allen-csk-m3-x-16-screw-pack-of-20 |
-| **Total** |  |  | **104.14** |  |
+| **Total** |  |  | **103.73** |  |
