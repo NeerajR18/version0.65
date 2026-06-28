@@ -21,46 +21,38 @@ version1/
 |   └── fp-lib-table
 |
 |── CAD/
-|   |──── Full/
-|   |     |── version0.65-assembly.step
-|   |     |── version0.65-base.step
-|   |     |── version0.65-plate.step
-|   |     |── version0.65-top.step
-|   |     └── version0.65.f3z
+|   |── Base/
+|   |   |── version0.65-base-left.step
+|   |   |── version0.65-base-middle.step
+|   |   └── version0.65-base-right.step
+|   |   
+|   |──── Top/
+|   |     |── version0.65-plate-left.step
+|   |     └── version0.65-plate-right.step
 |   |
-|   └──── Split/
-|         |──── Base/
-|         |     |── version0.65-split-base-left.step
-|         |     |── version0.65-split-base-middle.step
-|         |     └── version0.65-split-base-right.step
-|         |
-|         |──── Top/
-|         |     |── version0.65-split-plate-left.step
-|         |     └── version0.65-split-plate-right.step
-|         |
-|         |── version0.65-splitcase-assembly.step
-|         └── version0.65-splitcase.f3z
+|   |── version0.65-assembly.step
+|   └── version0.65.f3z
 | 
 |── Production/   
 |    |── gerbers.zip/
 |    |
 |    |── STL Files/
-|    |   |─── version0.65-split-base/
+|    |   |─── version0.65-base/
 |    |   |    |── version0.65-base-left.stl
 |    |   |    |── version0.65-base-middle.stl
 |    |   |    └── version0.65-base-right.stl
 |    |   |
-|    |   └─── version0.65-split-plate/
+|    |   └─── version0.65-plate/
 |    |        |── version0.65-plate-left.stl
 |    |        └── version0.65-plate-right.stl
 |    |
 |    └── STEP Files/
-|           |─── version0.65-split-base/
+|           |─── version0.65-base/
 |           |      |── version0.65-base-left.step
 |           |      |── version0.65-base-middle.step
 |           |      └── version0.65-base-right.step
 |           |
-|           └──── version0.65-split-plate/
+|           └──── version0.65-plate/
 |                   |── version0.65-plate-left.step
 |                   └── version0.65-plate-right.step
 |
@@ -99,31 +91,30 @@ version1/
  
 
 ## CAD
-The case has been split to accomodate 3D printing. A non-split case also is included in the CAD folder. The plates and base have small pegs and holes for assembly.
+The case has been split to accomodate 3D printing. The plates and base have small pegs and holes for assembly.
 
 #### Full Assembly
 ##### Top View
-<img width="650" height="308" alt="image" src="https://github.com/user-attachments/assets/8e1746bd-6edd-469d-a3be-1ba8b31f15f2" />
-
+<img width="969" height="392" alt="image" src="https://github.com/user-attachments/assets/b764fcc6-3e90-40c2-b1d1-901356535a4f" />
 
 #####  Side View
-<img width="933" height="469" alt="image" src="https://github.com/user-attachments/assets/e2f9ff12-cade-47cd-99c5-76d34e2467e2" />
+<img width="778" height="349" alt="image" src="https://github.com/user-attachments/assets/310366f0-f7fd-4fbb-a767-60109e995a82" />
+
 
 
 #### Top Plate
 ##### Top View
-<img width="694" height="336" alt="image" src="https://github.com/user-attachments/assets/fa34da71-14a1-4e33-82a6-0fa6f81e0634" />
+<img width="977" height="348" alt="image" src="https://github.com/user-attachments/assets/471eedb7-97e5-437f-9a17-4e4bdbee15ed" />
 
 #####  Side View
-<img width="883" height="441" alt="image" src="https://github.com/user-attachments/assets/6c679788-67d3-4bc4-9893-a2ef8e4960fc" />
+<img width="908" height="387" alt="image" src="https://github.com/user-attachments/assets/d9fc37f1-44ec-41a5-bd9b-b73f3cf80268" />
 
 #### Base
 ##### Top View
-<img width="775" height="425" alt="image" src="https://github.com/user-attachments/assets/84f09af4-b6f0-470c-a972-abbd8e1f0ca1" />
-
+<img width="962" height="338" alt="image" src="https://github.com/user-attachments/assets/2a15a90f-0293-4bd8-a7ad-860e2e9839a1" />
 
 #####  Side View
-<img width="784" height="292" alt="image" src="https://github.com/user-attachments/assets/8e11c721-c2f7-4a05-b6d7-7e89447e8563" />
+<img width="1046" height="425" alt="image" src="https://github.com/user-attachments/assets/d2c979e7-7051-4633-84a1-f92e3291421a" />
  
 ## Firmware
 version0.65 uses ZMK firmare. While the firmware has not been tested IRL, it can be found in a separate repository.
