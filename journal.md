@@ -226,3 +226,67 @@ It took me 9 commits to fix the errors to build the .uf2 file.
 Anyways, I am ready to submit. I have also made the BOM and repo.
 
 #### Time taken- around 1.5 hours for firmware.
+
+## Journal 7 
+
+I made some changes to the PCB. I removed the two extra keys, which opened up some space for the microcontroller board. 
+This kept the width same but height reduced to 100mm.
+I changed the scehmatic accordingly.
+<img width="975" height="567" alt="image" src="https://github.com/user-attachments/assets/8925c9e9-edcb-473f-a872-264108e577b7" />
+I decided to reroute the PCB from scratch.
+<img width="975" height="406" alt="image" src="https://github.com/user-attachments/assets/651b39b4-dba0-479f-85b5-828dbb431ca3" />
+I first started with the rows
+<img width="975" height="310" alt="image" src="https://github.com/user-attachments/assets/ef2cff2f-1037-4aff-939c-600a79a7546f" />
+Then connected the diodes
+<img width="975" height="346" alt="image" src="https://github.com/user-attachments/assets/01c1bdce-3ee4-44ff-938e-a1026725acb2" />
+After that, all the column pins were connected.
+<img width="975" height="340" alt="image" src="https://github.com/user-attachments/assets/1b1e1792-c9c2-4833-a58c-2a92df1ee34c" />
+I then connected everything to the devboard.
+<img width="975" height="340" alt="image" src="https://github.com/user-attachments/assets/283f3763-15f7-45dc-bcf7-9012e4a7f9c2" />
+Now this took me some time because the spacing and clearances had to be looked after, and the traces had to travel a lot.
+The column pins went through many regions, including below the spacebar between row routing etc.
+It was fun to do.
+I finally added a GND plane
+<img width="975" height="371" alt="image" src="https://github.com/user-attachments/assets/ea543b9c-b6d9-4146-872b-70df4c8aa936" />
+DRC also did not give any errors.
+
+#### Time taken- around 1.5 hours for redoing the PCB from the start.
+
+## Journal 8
+
+Since, I changed my PCB, my case will also have to be changed. So, I did that.
+I first imported my PCB step file from KiCad to Fusion
+<img width="975" height="431" alt="image" src="https://github.com/user-attachments/assets/11e686c4-da37-486a-8321-0340a5e653f6" />
+After that, I made a sketch for the base (split).
+<img width="975" height="517" alt="image" src="https://github.com/user-attachments/assets/0a220fe7-12a6-41e2-ba3a-222a9f8ff31f" />
+I extruded 3mm to make the base.
+<img width="975" height="373" alt="image" src="https://github.com/user-attachments/assets/048613cd-b70d-4456-b087-238b5c819796" />
+I then extruded the walls.
+<img width="975" height="717" alt="image" src="https://github.com/user-attachments/assets/e5576a07-0272-4bbe-b368-09c000bb84fb" />
+After this, I imported the plate.dxf and then split that into two parts.
+<img width="975" height="402" alt="image" src="https://github.com/user-attachments/assets/5ea5976e-acb2-4d28-ac59-0b841bc67edc" />
+I extruded one part and aligned it with the switches
+<img width="975" height="590" alt="image" src="https://github.com/user-attachments/assets/47e49dae-ea98-4762-8d6f-1a71e88704cb" />
+I did the same with the other part
+<img width="975" height="494" alt="image" src="https://github.com/user-attachments/assets/5c852c6c-0626-4bb8-a82e-5eb35125cb63" />
+I then extruded all the edges to match the base.
+<img width="975" height="442" alt="image" src="https://github.com/user-attachments/assets/326e0871-c752-4bb8-b0e5-c239092a6a8d" />
+I then made the sketch for the extrusion for the top part.
+<img width="842" height="548" alt="image" src="https://github.com/user-attachments/assets/3e12121a-1a3b-44b3-b72d-92052397434b" />
+Combined it
+<img width="975" height="366" alt="image" src="https://github.com/user-attachments/assets/7599d8a9-d387-460b-adb8-0b3ac6ccb286" />
+I did the same steps for the other parts and added some fillets.
+<img width="841" height="561" alt="image" src="https://github.com/user-attachments/assets/00ab00f7-a329-418c-9a54-2196af498327" />
+After that, I made the sketch for the MCU board.
+<img width="878" height="442" alt="image" src="https://github.com/user-attachments/assets/a4ddd8e6-b741-4a4a-b79b-52e52aa2ad8c" />
+Then I cut the portion
+<img width="975" height="423" alt="image" src="https://github.com/user-attachments/assets/cbfa7adf-fd74-4dff-a822-e72ee967ba9f" />
+Added the color scheme
+<img width="975" height="667" alt="image" src="https://github.com/user-attachments/assets/d511c28f-e18b-427b-989b-19a3d713c4a2" />
+Made Holes for the screws,
+<img width="975" height="427" alt="image" src="https://github.com/user-attachments/assets/45af7d37-d9d3-4090-9d9d-9c344cadcaf0" />
+Added screws.
+<img width="975" height="354" alt="image" src="https://github.com/user-attachments/assets/ec5fbd69-399d-493e-866f-316f56187313" />
+and done!
+
+#### Time taken- around 2 hours for redoing the case.
