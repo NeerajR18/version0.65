@@ -1,6 +1,6 @@
 # version0.65
 
-version0.65 is a 65% keyboard which follows the Leopold FC660M layout. It is bluetooth keyboard, using the SuperMini nRF52840 board, which is pin compatible with the nice!nano v2.
+version0.65 is an almost 65% keyboard. It is a bluetooth keyboard, using the SuperMini nRF52840 board, which is pin compatible with the nice!nano v2.
 It has a built in battery along with a On/Off switch.
 
 The keyboard is hotswap, with gateron hotswap sockets and Gateron Blue switches.
@@ -70,24 +70,20 @@ version1/
 
 ## Schematic
 ##### Overall Schematic
-<img width="1173" height="590" alt="image" src="https://github.com/user-attachments/assets/be4c3ac6-c0e7-4de7-b0e6-379787bbe178" />
-
+<img width="1016" height="549" alt="image" src="https://github.com/user-attachments/assets/34dda80b-e4b8-4236-bd8a-9264c9a206af" />
 
 ## PCB
 ##### PCB Front without GND Plane
-<img width="977" height="384" alt="image" src="https://github.com/user-attachments/assets/23c2b1fd-b6c8-4a7c-af8a-d6974c13d283" />
-
+<img width="979" height="347" alt="image" src="https://github.com/user-attachments/assets/2954b8de-9fa5-4e58-9e13-ef11f9f62b96" />
 
 ##### PCB Front with GND Plane
-<img width="977" height="391" alt="image" src="https://github.com/user-attachments/assets/57820a6e-4209-488c-8803-2c2926cd3979" />
-
+<img width="977" height="331" alt="image" src="https://github.com/user-attachments/assets/3d420cde-0ebe-418d-afc1-69940983a389" />
 
 ##### PCB Back without GND Plane
-<img width="971" height="392" alt="image" src="https://github.com/user-attachments/assets/97b8eee5-cec2-4163-9a00-d16fc9b1aa2f" />
-
+<img width="969" height="320" alt="image" src="https://github.com/user-attachments/assets/599930f8-021f-4ade-8995-a958e7287f5e" />
 
 ##### PCB Back with GND Plane
-<img width="976" height="390" alt="image" src="https://github.com/user-attachments/assets/e2bd9c74-a955-4613-98e0-10c432ee3128" />
+<img width="975" height="333" alt="image" src="https://github.com/user-attachments/assets/31202ad0-eb1e-44c1-bd29-3b3b04581050" />
  
 
 ## CAD
@@ -133,8 +129,9 @@ Firmware repository- https://github.com/NeerajR18/zmk-config-version0.65
 | S2B-PH-SM4-TB | 1 | 0.42 | 0.42 | https://robu.in/product/s2b-ph-sm4-tblfsn-jst-1x2p-2p-ph-tin-2-25%E2%84%8385%E2%84%83-2a-1-2mm-copper-alloy-horizontal-attachment-smdp2mmsurface-mount%EF%BC%8Cright-angle-wire-to-board-connector-rohs/ |
 | 1N4148W-T4 | 66 | 0.015 | 0.99 | https://sharvielectronics.com/product/1n4148w-t4-high-speed-fast-switching-diode-sod-123-package/ |
 | YY503040-JST-PH | 1 | 2.31 | 2.31 | https://sharvielectronics.com/product/3-7v-1100mah-lipo-rechargeable-battery-with-jst-ph-2mm-connector/ |
-| PCB from Robu | 5 | 8.05 | 48.35 | https://robu.in/ |
+| PCB from Robu | 5 | 8.83 | 44.28 | https://robu.in/ |
 | Cherry Stabilizer Set (GEON AND C3) | 1 | 7.36 | 7.36 | https://neomacro.in/products/cherry-stabilizer-set-geon-and-c3?_pos=3&_sid=9a6134911&_ss=r |
 | M3 Heatset Insert | 20 | 0.025 | 0.50 | https://onlyscrews.in/products/m3-x-3mm-brass-threaded-inserts |
 | M3 × 16mm Screws | 20 | 0.023 | 0.46 | https://onlyscrews.in/products/hex-allen-csk-m3-x-16-screw-pack-of-20 |
-| **Total** |  |  | **103.73** |  |
+| Shipping charges |-| - | 7 | - |
+| **Total** |  |  | **107.07** |  |
